@@ -1,0 +1,336 @@
+.frame {
+  height: 500px;
+  /* border: 2px solid black; */
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-image: url("../images/Group7083.png");
+  position: relative;
+  /* filter: brightness(96%); */
+}
+.framechild {
+  height: 500px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.t1 {
+  position: absolute;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.04em;
+  left: 4%;
+  top: 3%;
+  z-index: 22;
+}
+.t2 {
+  position: absolute;
+  width: 670px;
+  height: 132px;
+  left: 5%;
+  top: 35%;
+  /* font-family: 'Mulish'; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48.7302px;
+  line-height: 66px;
+  color: #ffffff;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+.inputbox1 {
+  position: absolute;
+  right: 5%;
+  width: 520px;
+  height: 371px;
+  background: #ffffff;
+  border: 1.50737px solid #dbdbdb;
+  border-radius: 6.0295px;
+  margin: 60px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.select1 {
+  width: 440.3px;
+  height: 49.74px;
+  border: 1.50737px solid #dadada;
+  border-radius: 6.0295px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18.0885px;
+  padding: 5px;
+  background: white;
+}
+.name1 {
+  width: 214.11px;
+  height: 49.74px;
+  border: 1.50737px solid #dadada;
+  border-radius: 6.0295px;
+  margin: 20px 0;
+  margin-right: 19px;
+  padding: 10px;
+}
+.num11 {
+  height: 49.74px;
+  border: 1.50737px solid #dadada;
+  border-radius: 6.0295px;
+  padding: 10px;
+  display: none;
+}
+.num1 {
+  width: 214.11px;
+  height: 49.74px;
+  border: 1.50737px solid #dadada;
+  border-radius: 6.0295px;
+  padding: 10px;
+  margin: 20px 0;
+}
+.namenum1 {
+  display: flex;
+}
+.pin1 {
+  width: 440px;
+  height: 49px;
+  border: 1.50737px solid #dadada;
+  border-radius: 6.0295px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.submit1 {
+  width: 226.11px;
+  height: 49.74px;
+  background: #004c97;
+  border-radius: 6.0295px;
+  color: white;
+  margin-bottom: 20px;
+  border: none;
+}
+.pi1 {
+  width: 453px;
+  height: 21px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  color: #707070;
+  text-align: center;
+  display: inline-block;
+}
+.s {
+  display: inline-block;
+}
+.fcon {
+  width: 65%;
+  margin: 30px auto;
+}
+.ftitle {
+  font-weight: 700;
+  font-size: 19.8059px;
+  line-height: 25px;
+  color: #000000;
+}
+.fcontent {
+  font-weight: 400;
+  font-size: 18.3294px;
+  line-height: 20px;
+  letter-spacing: 0.06em;
+  color: #757575;
+}
+.br {
+  margin: 3% 0;
+  height: 5px;
+  background: #6f6f6f;
+}
+@media (max-width: 1300px) {
+  .inputbox1 {
+    right: 2%;
+  }
+}
+@media (max-width: 1250px) {
+  .t2 {
+    width: 640px;
+  }
+}
+@media (max-width: 1110px) {
+  .t2 {
+    max-width: 400px;
+    font-size: 38px;
+    line-height: 50px;
+  }
+  .inputbox1 {
+    width: 430px;
+    height: 371px;
+  }
+  .select1 {
+    width: 330px;
+  }
+  .num1,
+  .name1 {
+    width: 155px;
+  }
+  .pin1 {
+    width: 330px;
+  }
+  .submit1 {
+    width: 180px;
+  }
+  .pi1 {
+    font-weight: 500;
+    font-size: 13px;
+  }
+}
+@media (max-width: 900px) {
+  .frame {
+    background-image: url("../images/Group70831.png") !important;
+    background-size: contain;
+  }
+  .framechild {
+    background: rgba(0, 0, 0, -1);
+  }
+  .inputbox1 {
+    width: 520px;
+    height: 371px;
+    right: 0;
+    left: 0;
+    top: 50%;
+  }
+  .select1 {
+    width: 440.3px;
+    height: 49.74px;
+  }
+  .name1 {
+    width: 214.11px;
+    height: 49.74px;
+  }
+  .num1 {
+    width: 214.11px;
+    height: 49.74px;
+  }
+  .pin1 {
+    width: 440px;
+  }
+  .submit1 {
+    width: 226.11px;
+  }
+  .pi1 {
+    width: 453px;
+    font-size: 17px;
+  }
+  .t2 {
+    width: 600px;
+    height: 132px;
+    left: 5%;
+    top: 33%;
+    font-size: 38.7302px;
+    /* border: 2px solid black; */
+  }
+  .fcon {
+    width: 80%;
+    margin-top: 200px;
+  }
+}
+@media (max-width: 550px) {
+  .t1 {
+    font-size: 14px;
+  }
+  .frame {
+    height: 318px;
+  }
+  .framechild {
+    height: 328px;
+  }
+  .t2 {
+    max-width: 400px;
+    height: 32px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 30px;
+    color: #ffffff;
+    top: 38%;
+  }
+  .fcon {
+    margin-top: 220px;
+    width: 90%;
+  }
+  .inputbox1 {
+    width: 360px;
+    height: 299px;
+  }
+  .select1 {
+    width: 312px;
+    height: 33px;
+  }
+  .namenum1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .name1 {
+    width: 312px;
+    height: 33px;
+    margin: 15px 0;
+  }
+  .n111 {
+    display: flex;
+  }
+  .num1 {
+    width: 151px;
+    height: 33px;
+    margin: 0 10px 15px 0;
+  }
+  .num11 {
+    display: block;
+    width: 151px;
+    height: 33px;
+  }
+  .pin1 {
+    width: 312px;
+    height: 33px;
+    margin-bottom: 15px;
+  }
+  .submit1 {
+    width: 150px;
+    height: 33px;
+    margin-bottom: 15px;
+  }
+  .pi1 {
+    font-weight: 500;
+    font-size: 13px;
+  }
+}
+@media (max-width: 450px) {
+  .t2 {
+    width: 315px;
+    height: 32px;
+    left: 16px;
+    top: 85px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    color: #ffffff;
+  }
+  .frame {
+    height: 220px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .inputbox1 {
+    overflow-x: hidden;
+    width: 339px;
+  }
+  .s {
+    display: none;
+  }
+  .fcon {
+    margin-top: 280px;
+    width: 95%;
+  }
+  .ftitle {
+    font-size: 15px;
+  }
+  .fcontent {
+    font-size: 14px;
+  }
+}

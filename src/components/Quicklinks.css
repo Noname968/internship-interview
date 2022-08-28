@@ -1,0 +1,96 @@
+.quickcon {
+  width: 81%;
+  margin: 20px auto;
+  /* border: 2px solid black; */
+}
+.quicktitle {
+  font-weight: 500;
+  font-size: 33.7972px;
+  line-height: 40px;
+}
+.sub1 {
+  margin-bottom: 40px;
+  /* border: 2px solid black; */
+}
+.stit {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+}
+.stitinfo {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 170.19%;
+  color: #7c7c7c;
+}
+.inputbox {
+  width: 559px;
+  height: 381px;
+  background: #ffffff;
+  border: 1.50737px solid #dbdbdb;
+  border-radius: 6.0295px;
+  margin: 60px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.select {
+  width: 470.3px;
+  height: 49.74px;
+  border: 1.50737px solid #dadada;
+  border-radius: 6.0295px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18.0885px;
+}
+.name {
+  width: 226.11px;
+  height: 49.74px;
+  border: 1.50737px solid #dadada;
+  border-radius: 6.0295px;
+  margin: 20px 0;
+  margin-right: 19px;
+  padding: 10px;
+}
+.num {
+  width: 226.11px;
+  height: 49.74px;
+  border: 1.50737px solid #dadada;
+  border-radius: 6.0295px;
+  padding: 10px;
+}
+.pin {
+  width: 470px;
+  height: 49px;
+  border: 1.50737px solid #dadada;
+  border-radius: 6.0295px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.submit {
+  width: 226.11px;
+  height: 49.74px;
+  background: #004c97;
+  border-radius: 6.0295px;
+  color: white;
+  margin-bottom: 20px;
+  border: none;
+}
+.pi {
+  width: 453px;
+  height: 21px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #707070;
+}
+
+@media(max-width:545px){
+  .inputbox{
+    display: none;
+  }
+  .quickcon{
+    width: 90%;
+  }
+}
