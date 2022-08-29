@@ -1,5 +1,5 @@
 .custcon {
-  width: 551px;
+  width: 550px;
   margin: auto;
   /* height: 1940px; */
   /* border: 2px solid black; */
@@ -85,7 +85,7 @@
   align-items: center;
 }
 
-@media(max-width:400px){
+@media(max-width:550px){
   .titlecust{
     text-align: left;
     font-size: 24px;
